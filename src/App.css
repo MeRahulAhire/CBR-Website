@@ -19,6 +19,7 @@
 
 .body {
   height: 100vh;
+  max-height: auto;
   background-color: #0f0f0f;
   width: 100%;
   color: #f7f7f7;
@@ -206,10 +207,12 @@
   display: grid;
   place-items: center;
   font-family: gilroy-bold;
+  background-color: #0f0f0f;
 }
 
 .tnc-container{
   margin-top: 1.5rem;
+  background-color: #0f0f0f;
 }
 .tnc-head{
   padding-left: 1rem;
@@ -223,6 +226,7 @@
   margin-top: 2rem;
   padding-right: 1rem;
   padding-bottom: 1.5rem;
+  background-color: #0f0f0f;
 }
 .tnc-layout p{
   margin-top: 1rem;
@@ -232,10 +236,13 @@
   padding-left: 1rem;
   padding-right: 1rem;
   margin-top: 1.5rem;
+  width: 100%;
+  padding-bottom: 2rem;
 }
 .refund-head{
   font-family: gilroy-bold;
   font-size: 3rem;
+
 }
 .refund-description{
   font-family: roboto;
@@ -253,8 +260,8 @@
   }
   .footer-container {
     position: relative;
-    margin-top: 1rem;
-    height: 40px;
+    padding: 1rem;
+    height: 60px;
     width: 100%;
     display: grid;
     place-items: center;
