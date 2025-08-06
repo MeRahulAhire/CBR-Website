@@ -2,6 +2,7 @@ import {Routes, Route} from 'react-router-dom'
 import Home from './component/home'
 import Success from './component/Success'
 import './App.css'
+import TnC from './component/TnC'
 
 function App() {
  
@@ -10,6 +11,7 @@ function App() {
     <>
        <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/tnc" element={<TnC />} />
       <Route path="/success" element={<Success />} />
     </Routes>
     </>

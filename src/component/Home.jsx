@@ -1,6 +1,7 @@
 import Navbar from "./Navbar";
 import favicon from "../assets/image/cloud-blender-render-logo.svg";
 import github_logo from "../assets/image/github.svg";
+import Footer from "./Footer";
 export default function Home() {
   return (
     <div className="body">
@@ -214,11 +215,14 @@ export default function Home() {
               <p>Enter your address</p>
               <textarea type="text" placeholder="Plot No. 12, Sector 18, Dwarka, New Delhi 110075"/>
             </div>
-
+            <div className="disclaimer">
+              <p className="disclaimer-p">By continuing, you acknowledge that it is non-refundable.</p>
+            </div>
             <div className="submit-box">Support</div>
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
