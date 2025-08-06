@@ -1,5 +1,5 @@
 import {Routes, Route} from 'react-router-dom'
-import Home from './component/home'
+import Home from './component/Home'
 import Success from './component/Success'
 import './App.css'
 import TnC from './component/TnC'
